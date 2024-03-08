@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai navbar</title>
+    <style>
+        .masai {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .right {
+            float: right;
+            margin: -8px;
+        }
+
+        .mid {
+            display: flex;
+            font-size: 11px;
+            justify-content: space-around;
+            gap: 15px;
+        }
+
+        .mid>div>a {
+            text-decoration: none;
+            color: black;
+            font: 50px;
+        }
+        .left>div{
+        color: white;
+        display: inline-block;
+        cursor: pointer;
+        }
+        .ref>a{
+            font-size: 10px;
+           text-align: center;
+            text-decoration: none;
+          padding: 5px;
+          margin: 4px;
+         background-color: #27dae0 ;
+        }
+        .sign>a{
+            color: red;
+            font-size: 10px;
+           text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+          padding: 5px;
+          margin: 4px;
+          border: 2px solid red;
+         
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="masai">
+            <div class="right">
+                <a href="#"><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt=""></a>
+            </div>
+            <div class="mid">
+                <div><a href="#">COURSES</a></div>
+                <div><a href="#">FEES</a></div>
+                <div><a href="#">EVENTS</a></div>
+                <div><a href="#">LEARN</a></div>
+                <div><a href="#">SUCCESS STORIES</a></div>
+                <div><a href="#">HIRE FROM US</a></div>
+            </div>
+            <div class="left">
+               <div class="ref"><a href="#">REFER & EARN</a></div>
+               <div class="sign"><a href="#">SIGN UP</a></div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
